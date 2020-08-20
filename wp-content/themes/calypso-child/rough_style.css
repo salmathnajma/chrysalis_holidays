@@ -1,0 +1,80 @@
+/* --------tab------------- */
+.tab-container {
+    position: relative;
+    font-size: 0;
+    text-align: left;
+  }
+   .tab-container input {
+    display: none;
+  }
+   .tab-container input#tab1:checked ~ .line {
+    left: 3%;
+  }
+   .tab-container input#tab2:checked ~ .line {
+    left: 13%;
+  }
+   .tab-container input#tab3:checked ~ .line {
+    left: 24%;
+  }
+   .tab-container input#tab4:checked ~ .line {
+    left: 35%;
+  }
+  .tab-container input#tab5:checked ~ .line {
+    left: 47%;
+  }
+  .tab-container input#tab1:checked ~ .content-container #c1 ,
+  .tab-container input#tab2:checked ~ .content-container #c2 ,
+  .tab-container input#tab3:checked ~ .content-container #c3,
+  .tab-container input#tab4:checked ~ .content-container #c4 ,
+  .tab-container input#tab5:checked ~ .content-container #c5{
+   display: block;
+  }
+   .tab-container .labels {
+    font-size: 16px;
+    height: 45px;
+    line-height: 36px;
+    width: 20%;
+    text-align: center;
+    border-bottom: 1px solid;
+    cursor: pointer;
+  }
+   .tab-container .line {
+    position: absolute;
+    height: 2px;
+    background: #9b5a96;
+    width: 7%;
+    top: 43px;
+    left: 0;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease;
+  }
+   .tab-container .content-container {
+    position: relative;
+    height: 500px;
+    font-size: 0.9375rem;
+  }
+   .tab-container .content-container .content {
+    width: 100%;
+    top: 0;
+    display: none;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+    color: #333;
+    position: absolute;
+    margin-top: 20px;
+  }
+  
+/* Start CSS of the accordion */
+
+
+/* .symple-accordion .symple-accordion-trigger::before {
+  content: '1';
+  position: relative !important;
+  width: 64px !important;
+  height: 64px !important;
+  color: #fff !important;
+  border-radius: 100% !important;
+  background: #9b5a96 !important;
+  cursor: pointer !important;
+  padding:5px !important;
+} */

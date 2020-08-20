@@ -1,0 +1,252 @@
+#side-sortables ul.wp-tab-bar li span {
+    &.d4plib-metatab-label {
+        display: none;
+    }
+
+    &.dashicons {
+        font-size: 20px;
+        height: 20px;
+        margin: 3px 5px;
+    }
+}
+
+ul {
+    &.gdrts-dashboard-ratings {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 6px;
+            border-bottom: 1px solid #ddd;
+
+            &:last-of-type {
+                border-bottom: 0;
+            }
+        }
+
+        i.fa.fa-check-circle {
+            color: green;
+        }
+
+        i.fa.fa-times-circle {
+            color: red;
+        }
+    }
+
+    &.gdrts-multiset-elements {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 2px 0;
+            padding: 0;
+            list-style: none;
+            overflow: hidden;
+            line-height: 28px;
+
+            label {
+                overflow: hidden;
+
+                > span {
+                    float: left;
+                    width: 128px;
+                    display: block;
+                }
+
+                input[type="number"] {
+                    display: inline;
+                    width: 72px !important;
+                }
+            }
+        }
+    }
+}
+
+.gdrts-meta-block {
+    margin: .9em 0;
+}
+
+.d4plib-metabox-wrapper {
+    input[type="number"] {
+        max-width: 180px !important;
+        display: block;
+    }
+}
+
+#gdrts-metabox .d4plib-metabox-wrapper.d4plib-metabox-iconize ul.wp-tab-bar li span.d4plib-metatab-label {
+    display: none;
+}
+
+.gdrts-metabox-wrapper {
+    h4 {
+        margin: .9em 0;
+        border-bottom: 1px solid #ddd;
+        padding: 0 0 .3em;
+
+        span {
+            color: #888;
+            font-size: .9em;
+        }
+
+        a {
+            float: right;
+            text-decoration: none;
+            margin-left: 4px;
+        }
+    }
+
+    h5 {
+        margin: .9em 0;
+        background-color: #888;
+        color: #fff;
+        padding: .2em .5em .3em;
+    }
+}
+
+.gdrts-metabox-wrapper-left {
+    width: 250px;
+    float: left;
+
+    select {
+        width: 100% !important;
+    }
+}
+
+.gdrts-metabox-wrapper-right {
+    width: calc(100% - 266px);
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.gdrts-metabox-row {
+    width: 100%;
+    overflow: auto;
+    border-left: 5px solid #888;
+    padding-left: 5px;
+
+    > div {
+        float: left;
+    }
+
+    > div input.widefat,
+    > div select.widefat {
+        width: 100%;
+    }
+
+    > div input[type=checkbox].widefat {
+        width: auto;
+    }
+
+    .__column-third {
+        width: 33.33%;
+    }
+
+    .__column-fourth {
+        width: 25%;
+    }
+
+    .__column-three-fourths {
+        width: 75%;
+    }
+
+    .__column-fifth {
+        width: 20%;
+    }
+
+    .__column-sixth {
+        width: 16.66%;
+    }
+
+    .__column-two-ninths {
+        width: 22.22%;
+    }
+
+    .__column-two-thirds {
+        width: 66.66%;
+    }
+
+    .__column-full {
+        width: 100%;
+        float: none;
+    }
+
+    .__column-half {
+        width: 50%;
+    }
+
+    .__on-middle {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .__on-left {
+        padding-right: 10px;
+    }
+
+    .__on-right {
+        padding-left: 10px;
+    }
+
+    &.__p-zero-margin > div p {
+        margin: 0;
+    }
+
+    &.__with-margin {
+        margin: .9em 0;
+    }
+
+    &.__with-margin-bottom {
+        margin: 0 0 .9em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gdrts-metabox-wrapper-left {
+        float: none;
+        width: 100%;
+    }
+
+    .gdrts-metabox-wrapper-right {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        border-left: 0;
+        padding-top: 15px;
+        margin-top: 15px;
+        border-top: 1px solid #ddd;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gdrts-metabox-row {
+        > div {
+            float: none;
+        }
+
+        .__column-third,
+        .__column-half,
+        .__column-sixth,
+        .__column-two-ninths,
+        .__column-fourth,
+        .__column-three-fourths,
+        .__column-fifth,
+        .__column-two-thirds {
+            width: 100%;
+        }
+
+        .__on-middle,
+        .__on-left,
+        .__on-right {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}

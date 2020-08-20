@@ -1,0 +1,19 @@
+.customize-control-image_radio_button label{
+    float: left;
+    max-width: 33.33%;
+    padding: 3px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+.image_radio_button_control .radio-button-label > input {
+	display: none;
+}
+.image_radio_button_control .radio-button-label > img {
+    cursor: pointer;
+    border: 1px solid #fff;
+	
+}
+.image_radio_button_control .radio-button-label > input:checked + img {
+	border: 1px solid #2885bb;
+}

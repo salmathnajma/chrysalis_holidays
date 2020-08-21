@@ -1106,6 +1106,9 @@ input[type="checkbox"]:checked ~ .desc p {
   }
 }
 @media screen and (max-width: 576px) {
+  #primary .container{
+    width: fit-content;
+  }
   #media_image-3 .pull-left {
     float: none;
   }

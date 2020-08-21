@@ -12,7 +12,7 @@ get_header();
 <section class="destination_header"> <!-- removed class="ca-welcome" -->
 <div class="container"> <!-- removed class="position-relative" -->
    <div class="row w-100 destinations_select_box">  <!-- removed class="select_box" -->
-		 <div class=" col-lg-5 col-md-12 col-sm-12 ">
+		 <div class="col-12 col-lg-5 col-md-12 col-sm-12 ">
 			 <h4 class="text-light font-weight-bold">6 Destinations to choose from</h4>
 			 <select id="destinations" class="filters-select" value-group="destinations">
 				 <option value="*">Choose Your Heavenly Destination</option>
@@ -29,10 +29,10 @@ get_header();
 				   <?php   } ?>
 			 </select>
 		 </div>
-		 <div class="text-center mt-3 col-lg-2 col-md-12 col-sm-12 ">
+		 <div class="text-center mt-3 col-12 col-lg-2 col-md-12 col-sm-12 ">
 			 <h1 style="font-size: 2.5rem;" class="text-light font-weight-bold">Or</h1>
 		 </div>
-		 <div class="col-lg-5 col-md-12 col-sm-12">
+		 <div class="col-12 col-lg-5 col-md-12 col-sm-12">
 			 <h4 class="text-light font-weight-bold">Choose Holiday Type</h4>
 			 <select id="tags" class="filters-select" value-group="tags">
 			 <option value="*">Choose Your Holiday Type</option>

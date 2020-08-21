@@ -731,17 +731,19 @@ p.crfp-group-1 div.rating-cancel a {
   background-image: none !important;
 }
 .rating-container.crfp-group-1.crfp-average-rating {
-  position: absolute;
+  /* position: absolute;
   top: 1.875rem;
-  left: 30rem;
+  left: 30rem; */
+  float: right;
 }
+/* background-stars in comment listing stars */
 .media-body .rating-container.crfp-group-1.crfp-average-rating {
   width: 100px;
   background-image: url(http://localhost/chrysalisholidays/wp-content/plugins/comment-rating-field-plugin//views/global/svg.php?svg=star&color=cccccc&size=20);
   background-repeat: repeat-x;
   background-position-y: center;
+  margin-top: -3.75rem;
 }
-
 .comment_listing .tval{
   display: none;
 }
@@ -1106,8 +1108,8 @@ input[type="checkbox"]:checked ~ .desc p {
   }
 }
 @media screen and (max-width: 576px) {
-  #primary .container{
-    width: fit-content;
+  #primary .container .row{
+    width:100%;
   }
   #media_image-3 .pull-left {
     float: none;

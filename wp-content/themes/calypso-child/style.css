@@ -1092,9 +1092,9 @@ input[type="checkbox"]:checked ~ .desc p {
     display: block;
   }
    /*footer-sec */
-  #gform_submit_button_1 {
+  /* #gform_submit_button_1 {
     padding: 1rem 2rem;
-  }
+  } */
 }
 @media screen and (max-width: 767px) {
   .search-results .card-image img{

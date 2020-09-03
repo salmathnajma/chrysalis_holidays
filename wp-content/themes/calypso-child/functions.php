@@ -21,9 +21,9 @@ function my_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts', 20);
 //add_filter("gform_init_scripts_footer", "init_scripts");//Move Gravity forms` scripts to footer
-function init_scripts() {
-return true;
-}
+// function init_scripts() {
+// return true;
+// }
 //gravity_form_enqueue_scripts( 1, true );
 
 /*=============header-search-button========================*/
